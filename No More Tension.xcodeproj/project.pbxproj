@@ -7,14 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B929A1D0C5E9D2A04FDDEBA /* Pods_No_More_Tension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774401493ACF9B53043F86FE /* Pods_No_More_Tension.framework */; };
+		9C238F5020D7757400A99EEC /* BhastrikaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C238F4F20D7757400A99EEC /* BhastrikaViewController.swift */; };
+		9C288B5B20D23396009F7026 /* KnowStressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288B5A20D23396009F7026 /* KnowStressViewController.swift */; };
+		9C288B5D20D233B6009F7026 /* StressButWhyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288B5C20D233B6009F7026 /* StressButWhyViewController.swift */; };
+		9C288B5F20D233D9009F7026 /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288B5E20D233D9009F7026 /* IndicatorsViewController.swift */; };
+		9C288B6120D233EA009F7026 /* AyushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288B6020D233EA009F7026 /* AyushViewController.swift */; };
+		9C288B6320D24CA9009F7026 /* CognitiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288B6220D24CA9009F7026 /* CognitiveViewController.swift */; };
+		9C36E22520D8DA8E0064D7D8 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C36E22320D8DA8D0064D7D8 /* ProgressHUD.m */; };
+		9C36E22620D8DA8E0064D7D8 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C36E22420D8DA8E0064D7D8 /* ProgressHUD.bundle */; };
+		9C36E22820D8E3910064D7D8 /* SMResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36E22720D8E3910064D7D8 /* SMResultViewController.swift */; };
+		9C4A812320CA8FCF006091AE /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A812220CA8FCF006091AE /* RegistrationViewController.swift */; };
+		9C775BE320CA4F2C005A9780 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C775BE220CA4F2C005A9780 /* LoginViewController.swift */; };
+		9C78089020D9197E00A51172 /* AdvancedyogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78088F20D9197E00A51172 /* AdvancedyogaViewController.swift */; };
+		9C893A4220D7B842005090C5 /* AnulomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C893A4120D7B842005090C5 /* AnulomViewController.swift */; };
+		9C893A4420D7B972005090C5 /* KapalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C893A4320D7B972005090C5 /* KapalViewController.swift */; };
+		9C893A4620D7C7DD005090C5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C893A4520D7C7DD005090C5 /* Question.swift */; };
+		9C893A4820D7C92E005090C5 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C893A4720D7C92D005090C5 /* QuestionBank.swift */; };
+		9CAE8FD620D0FA0700E60556 /* meditate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9CAE8FD520D0FA0700E60556 /* meditate.mp3 */; };
+		9CCCF25D20CE359E00323C57 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCF25C20CE359E00323C57 /* MenuViewController.swift */; };
+		9CE70A4520D26A5E00706B41 /* PhysicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE70A4420D26A5E00706B41 /* PhysicalViewController.swift */; };
+		9CE70A4720D26A7D00706B41 /* EmotionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE70A4620D26A7D00706B41 /* EmotionalViewController.swift */; };
+		9CE70A4920D26A9A00706B41 /* BehaviouralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE70A4820D26A9A00706B41 /* BehaviouralViewController.swift */; };
+		9CE8B0CE20CA9D69000A6E18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8B0CD20CA9D69000A6E18 /* GoogleService-Info.plist */; };
 		9CF3E29420CA48F300DC1335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3E29320CA48F300DC1335 /* AppDelegate.swift */; };
 		9CF3E29620CA48F300DC1335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3E29520CA48F300DC1335 /* ViewController.swift */; };
 		9CF3E29920CA48F300DC1335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF3E29720CA48F300DC1335 /* Main.storyboard */; };
 		9CF3E29B20CA48F400DC1335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF3E29A20CA48F400DC1335 /* Assets.xcassets */; };
 		9CF3E29E20CA48F400DC1335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF3E29C20CA48F400DC1335 /* LaunchScreen.storyboard */; };
+		9CFCFB4420CE5AEE008786B1 /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4320CE5AEE008786B1 /* YogaViewController.swift */; };
+		9CFCFB4620CE5B03008786B1 /* PranayamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4520CE5B03008786B1 /* PranayamViewController.swift */; };
+		9CFCFB4820CE5B2D008786B1 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4720CE5B2D008786B1 /* InformationViewController.swift */; };
+		9CFCFB4A20CE5B48008786B1 /* StressMeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4920CE5B48008786B1 /* StressMeterViewController.swift */; };
+		9CFCFB4C20CE5B60008786B1 /* StressIndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4B20CE5B60008786B1 /* StressIndicatorsViewController.swift */; };
+		9CFCFB4E20CE5C76008786B1 /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFCFB4D20CE5C76008786B1 /* MeditationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F2BEA274DF9F0A2975CF76B /* Pods-No More Tension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No More Tension.release.xcconfig"; path = "Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension.release.xcconfig"; sourceTree = "<group>"; };
+		774401493ACF9B53043F86FE /* Pods_No_More_Tension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_No_More_Tension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C238F4F20D7757400A99EEC /* BhastrikaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhastrikaViewController.swift; sourceTree = "<group>"; };
+		9C288B5A20D23396009F7026 /* KnowStressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowStressViewController.swift; sourceTree = "<group>"; };
+		9C288B5C20D233B6009F7026 /* StressButWhyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressButWhyViewController.swift; sourceTree = "<group>"; };
+		9C288B5E20D233D9009F7026 /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
+		9C288B6020D233EA009F7026 /* AyushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyushViewController.swift; sourceTree = "<group>"; };
+		9C288B6220D24CA9009F7026 /* CognitiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveViewController.swift; sourceTree = "<group>"; };
+		9C36E22120D8DA8C0064D7D8 /* No More Tension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "No More Tension-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C36E22220D8DA8D0064D7D8 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		9C36E22320D8DA8D0064D7D8 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		9C36E22420D8DA8E0064D7D8 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		9C36E22720D8E3910064D7D8 /* SMResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMResultViewController.swift; sourceTree = "<group>"; };
+		9C4A812220CA8FCF006091AE /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		9C775BE220CA4F2C005A9780 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C78088F20D9197E00A51172 /* AdvancedyogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedyogaViewController.swift; sourceTree = "<group>"; };
+		9C893A4120D7B842005090C5 /* AnulomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnulomViewController.swift; sourceTree = "<group>"; };
+		9C893A4320D7B972005090C5 /* KapalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapalViewController.swift; sourceTree = "<group>"; };
+		9C893A4520D7C7DD005090C5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9C893A4720D7C92D005090C5 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		9CAE8FD520D0FA0700E60556 /* meditate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditate.mp3; sourceTree = "<group>"; };
+		9CCCF25C20CE359E00323C57 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9CE70A4420D26A5E00706B41 /* PhysicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalViewController.swift; sourceTree = "<group>"; };
+		9CE70A4620D26A7D00706B41 /* EmotionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalViewController.swift; sourceTree = "<group>"; };
+		9CE70A4820D26A9A00706B41 /* BehaviouralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviouralViewController.swift; sourceTree = "<group>"; };
+		9CE8B0CD20CA9D69000A6E18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9CF3E29020CA48F200DC1335 /* No More Tension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No More Tension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF3E29320CA48F300DC1335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF3E29520CA48F300DC1335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +77,13 @@
 		9CF3E29A20CA48F400DC1335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CF3E29D20CA48F400DC1335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF3E29F20CA48F400DC1335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFCFB4320CE5AEE008786B1 /* YogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
+		9CFCFB4520CE5B03008786B1 /* PranayamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PranayamViewController.swift; sourceTree = "<group>"; };
+		9CFCFB4720CE5B2D008786B1 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		9CFCFB4920CE5B48008786B1 /* StressMeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressMeterViewController.swift; sourceTree = "<group>"; };
+		9CFCFB4B20CE5B60008786B1 /* StressIndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressIndicatorsViewController.swift; sourceTree = "<group>"; };
+		9CFCFB4D20CE5C76008786B1 /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
+		CFBCF597047F303EC44803CC /* Pods-No More Tension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No More Tension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +91,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B929A1D0C5E9D2A04FDDEBA /* Pods_No_More_Tension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1149AA65CB6A899DC4AAA21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774401493ACF9B53043F86FE /* Pods_No_More_Tension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C36E22020D8DA610064D7D8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				9C36E22420D8DA8E0064D7D8 /* ProgressHUD.bundle */,
+				9C36E22220D8DA8D0064D7D8 /* ProgressHUD.h */,
+				9C36E22320D8DA8D0064D7D8 /* ProgressHUD.m */,
+				9C36E22120D8DA8C0064D7D8 /* No More Tension-Bridging-Header.h */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		9C93203420CD70B700E2B8BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C893A4520D7C7DD005090C5 /* Question.swift */,
+				9C893A4720D7C92D005090C5 /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		9C93203520CD70CE00E2B8BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3E29720CA48F300DC1335 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = SOURCE_ROOT;
+		};
+		9C93203620CD70E900E2B8BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CF3E29320CA48F300DC1335 /* AppDelegate.swift */,
+				9CF3E29520CA48F300DC1335 /* ViewController.swift */,
+				9C4A812220CA8FCF006091AE /* RegistrationViewController.swift */,
+				9C775BE220CA4F2C005A9780 /* LoginViewController.swift */,
+				9CCCF25C20CE359E00323C57 /* MenuViewController.swift */,
+				9CFCFB4320CE5AEE008786B1 /* YogaViewController.swift */,
+				9CFCFB4D20CE5C76008786B1 /* MeditationViewController.swift */,
+				9CFCFB4520CE5B03008786B1 /* PranayamViewController.swift */,
+				9CFCFB4720CE5B2D008786B1 /* InformationViewController.swift */,
+				9CFCFB4920CE5B48008786B1 /* StressMeterViewController.swift */,
+				9C288B5A20D23396009F7026 /* KnowStressViewController.swift */,
+				9C288B5C20D233B6009F7026 /* StressButWhyViewController.swift */,
+				9C288B5E20D233D9009F7026 /* IndicatorsViewController.swift */,
+				9C288B6020D233EA009F7026 /* AyushViewController.swift */,
+				9CFCFB4B20CE5B60008786B1 /* StressIndicatorsViewController.swift */,
+				9C288B6220D24CA9009F7026 /* CognitiveViewController.swift */,
+				9CE70A4420D26A5E00706B41 /* PhysicalViewController.swift */,
+				9CE70A4620D26A7D00706B41 /* EmotionalViewController.swift */,
+				9CE70A4820D26A9A00706B41 /* BehaviouralViewController.swift */,
+				9C238F4F20D7757400A99EEC /* BhastrikaViewController.swift */,
+				9C893A4120D7B842005090C5 /* AnulomViewController.swift */,
+				9C893A4320D7B972005090C5 /* KapalViewController.swift */,
+				9C36E22720D8E3910064D7D8 /* SMResultViewController.swift */,
+				9C78088F20D9197E00A51172 /* AdvancedyogaViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
 		9CF3E28720CA48F200DC1335 = {
 			isa = PBXGroup;
 			children = (
+				9CAE8FD520D0FA0700E60556 /* meditate.mp3 */,
 				9CF3E29220CA48F200DC1335 /* No More Tension */,
+				9C36E22020D8DA610064D7D8 /* Supporting files */,
 				9CF3E29120CA48F200DC1335 /* Products */,
+				B7C827563733D77F15E31063 /* Pods */,
+				1149AA65CB6A899DC4AAA21E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +188,24 @@
 		9CF3E29220CA48F200DC1335 /* No More Tension */ = {
 			isa = PBXGroup;
 			children = (
-				9CF3E29320CA48F300DC1335 /* AppDelegate.swift */,
-				9CF3E29520CA48F300DC1335 /* ViewController.swift */,
-				9CF3E29720CA48F300DC1335 /* Main.storyboard */,
+				9C93203420CD70B700E2B8BF /* Model */,
+				9C93203520CD70CE00E2B8BF /* View */,
+				9C93203620CD70E900E2B8BF /* Controllers */,
 				9CF3E29A20CA48F400DC1335 /* Assets.xcassets */,
 				9CF3E29C20CA48F400DC1335 /* LaunchScreen.storyboard */,
 				9CF3E29F20CA48F400DC1335 /* Info.plist */,
+				9CE8B0CD20CA9D69000A6E18 /* GoogleService-Info.plist */,
 			);
 			path = "No More Tension";
+			sourceTree = "<group>";
+		};
+		B7C827563733D77F15E31063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFBCF597047F303EC44803CC /* Pods-No More Tension.debug.xcconfig */,
+				2F2BEA274DF9F0A2975CF76B /* Pods-No More Tension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CF3E2A220CA48F400DC1335 /* Build configuration list for PBXNativeTarget "No More Tension" */;
 			buildPhases = (
+				58808A9E4268421E7D6A9CAE /* [CP] Check Pods Manifest.lock */,
 				9CF3E28C20CA48F200DC1335 /* Sources */,
 				9CF3E28D20CA48F200DC1335 /* Frameworks */,
 				9CF3E28E20CA48F200DC1335 /* Resources */,
+				0848657EF7DB2CF95ADD5EAD /* [CP] Embed Pods Frameworks */,
+				D73241C6EF2393CA56E7AE3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +243,7 @@
 				TargetAttributes = {
 					9CF3E28F20CA48F200DC1335 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -123,20 +271,121 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF3E29E20CA48F400DC1335 /* LaunchScreen.storyboard in Resources */,
+				9CE8B0CE20CA9D69000A6E18 /* GoogleService-Info.plist in Resources */,
+				9C36E22620D8DA8E0064D7D8 /* ProgressHUD.bundle in Resources */,
 				9CF3E29B20CA48F400DC1335 /* Assets.xcassets in Resources */,
 				9CF3E29920CA48F300DC1335 /* Main.storyboard in Resources */,
+				9CAE8FD620D0FA0700E60556 /* meditate.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0848657EF7DB2CF95ADD5EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58808A9E4268421E7D6A9CAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-No More Tension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73241C6EF2393CA56E7AE3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-No More Tension/Pods-No More Tension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CF3E28C20CA48F200DC1335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C893A4220D7B842005090C5 /* AnulomViewController.swift in Sources */,
+				9C775BE320CA4F2C005A9780 /* LoginViewController.swift in Sources */,
+				9C36E22520D8DA8E0064D7D8 /* ProgressHUD.m in Sources */,
+				9C78089020D9197E00A51172 /* AdvancedyogaViewController.swift in Sources */,
+				9CE70A4920D26A9A00706B41 /* BehaviouralViewController.swift in Sources */,
+				9CFCFB4A20CE5B48008786B1 /* StressMeterViewController.swift in Sources */,
+				9C36E22820D8E3910064D7D8 /* SMResultViewController.swift in Sources */,
+				9CFCFB4620CE5B03008786B1 /* PranayamViewController.swift in Sources */,
+				9CCCF25D20CE359E00323C57 /* MenuViewController.swift in Sources */,
+				9C288B5F20D233D9009F7026 /* IndicatorsViewController.swift in Sources */,
+				9CFCFB4C20CE5B60008786B1 /* StressIndicatorsViewController.swift in Sources */,
+				9CFCFB4420CE5AEE008786B1 /* YogaViewController.swift in Sources */,
 				9CF3E29620CA48F300DC1335 /* ViewController.swift in Sources */,
+				9C4A812320CA8FCF006091AE /* RegistrationViewController.swift in Sources */,
+				9C288B5D20D233B6009F7026 /* StressButWhyViewController.swift in Sources */,
+				9C893A4420D7B972005090C5 /* KapalViewController.swift in Sources */,
+				9CFCFB4E20CE5C76008786B1 /* MeditationViewController.swift in Sources */,
+				9CE70A4720D26A7D00706B41 /* EmotionalViewController.swift in Sources */,
+				9CE70A4520D26A5E00706B41 /* PhysicalViewController.swift in Sources */,
+				9C288B6120D233EA009F7026 /* AyushViewController.swift in Sources */,
+				9C893A4820D7C92E005090C5 /* QuestionBank.swift in Sources */,
 				9CF3E29420CA48F300DC1335 /* AppDelegate.swift in Sources */,
+				9C893A4620D7C7DD005090C5 /* Question.swift in Sources */,
+				9C238F5020D7757400A99EEC /* BhastrikaViewController.swift in Sources */,
+				9CFCFB4820CE5B2D008786B1 /* InformationViewController.swift in Sources */,
+				9C288B5B20D23396009F7026 /* KnowStressViewController.swift in Sources */,
+				9C288B6320D24CA9009F7026 /* CognitiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +527,10 @@
 		};
 		9CF3E2A320CA48F400DC1335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBCF597047F303EC44803CC /* Pods-No More Tension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "No More Tension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +539,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anshuldhull.No-More-Tension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/No More Tension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,8 +548,10 @@
 		};
 		9CF3E2A420CA48F400DC1335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2BEA274DF9F0A2975CF76B /* Pods-No More Tension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "No More Tension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anshuldhull.No-More-Tension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/No More Tension-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
